@@ -31,6 +31,7 @@ endfunction
 function! neoformat#formatters#java#googleformat() abort
     return {
                 \'exe':'java -jar ../../google-java-format-1.15.0-all-deps.jar',
+                \'args': ['--replace'],
                 \'stdin': 1,
                 \}
 endfunction
