@@ -30,8 +30,7 @@ endfunction
 
 function! neoformat#formatters#java#googleformat() abort
     return {
-                \'exe':'java -jar ~/.local/share/nvim/site/pack/packer/start/neoformat/autoload/google-java-format-1.15.0-all-deps.jar',
-                \'args': ['--replace'],
+                \'exe':'java -jar ~/.local/share/nvim/site/pack/packer/start/neoformat/autoload/google-java-format-1.15.0-all-deps.jar --replace',
                 \'stdin': 1,
                 \}
 endfunction
