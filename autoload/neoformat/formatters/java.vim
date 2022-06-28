@@ -1,5 +1,5 @@
 function! neoformat#formatters#java#enabled() abort
-    return ['google-java-format', 'astyle', 'prettierd', 'prettier']
+    return ['googleformat', 'astyle', 'prettierd', 'prettier']
 endfunction
 
 function! neoformat#formatters#java#astyle() abort
